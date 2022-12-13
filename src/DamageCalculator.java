@@ -107,7 +107,8 @@ public class DamageCalculator extends JFrame {
         add(button);
 
         // Set the frame size and make it visible
-        setSize(300, 200);
+        setSize(400, 200);
+        setResizable(false);
         setVisible(true);
     }
 
